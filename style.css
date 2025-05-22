@@ -10,8 +10,9 @@ li{
     list-style: none;
 }
 
-.a{
+a{
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 button{
@@ -19,6 +20,7 @@ button{
     color:#e5e7eb;
     padding:8px 16px;
     border: none;
+    border-radius:16px;
 }
 
 .header{
@@ -27,7 +29,7 @@ button{
     flex-direction: row;
     justify-content: flex-start;
     align-items:center;
-    
+    padding: 16px;
     
 }
 
@@ -35,9 +37,12 @@ button{
     margin-right: auto;
 }
 
+
 .right-links{
     display:flex;
     gap:16px;
+    font-size:18px;
+    color: #e5e7eb;
 }
 
 .first-section{
@@ -45,7 +50,8 @@ button{
     display:flex;
     flex:1;
     justify-content: space-between;
-    padding: 16px;
+    padding: 20px;
+    
 }
 
 .blabla{
@@ -73,6 +79,7 @@ button{
     flex:1;
     gap:16px;
     border-radius: 25px;
+    padding: 20px;
 }
 
 .third-section{
@@ -104,6 +111,7 @@ button{
     flex:1;
     align-items: center;
     gap:16px;
+    border-radius: 16px;
     
     
 }
@@ -115,3 +123,4 @@ button{
     padding: 20px;
     color:#e5e7eb
 }
+
