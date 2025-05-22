@@ -2,6 +2,7 @@ body{
     display:flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 li{
@@ -14,8 +15,10 @@ li{
 }
 
 button{
+    background-color: #3882f8;
+    color:#e5e7eb;
     padding:8px 16px;
-
+    border: none;
 }
 
 .header{
@@ -83,3 +86,32 @@ button{
 
 }
 
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding:40px;
+}
+
+.box{
+    background-color: #3882f8;
+    padding: 20px 40px;
+    display: flex;
+    flex-basis:500px;
+    color:#e5e7eb;
+    justify-content: space-around;
+    flex:1;
+    align-items: center;
+    gap:16px;
+    
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color:#e5e7eb
+}
